@@ -29,25 +29,25 @@ const WheelCurvedPickerNative = requireNativeComponent('WheelCurvedPicker', Whee
 
 class WheelCurvedPicker extends React.Component {
 
-	propTypes: {
-		...View.propTypes,
+	// propTypes: {
+	// 	...View.propTypes,
 
-		data: PropTypes.array,
+	// 	data: PropTypes.array,
 
-		textColor: ColorPropType,
+	// 	textColor: ColorPropType,
 
-		textSize: PropTypes.number,
+	// 	textSize: PropTypes.number,
 
-		itemStyle: PropTypes.object,
+	// 	itemStyle: PropTypes.object,
 
-		itemSpace: PropTypes.number,
+	// 	itemSpace: PropTypes.number,
 
-		onValueChange: PropTypes.func,
+	// 	onValueChange: PropTypes.func,
 
-		selectedValue: PropTypes.any,
+	// 	selectedValue: PropTypes.any,
 
-		selectedIndex: PropTypes.number,
-	}
+	// 	selectedIndex: PropTypes.number,
+	// }
 
 	constructor(props){
 		super(props)
@@ -97,10 +97,10 @@ class WheelCurvedPicker extends React.Component {
 }
 
 class Item extends React.Component {
-	propTypes: {
-		value: React.PropTypes.any, // string or integer basically
-		label: React.PropTypes.string,
-	}
+	// propTypes: {
+	// 	value: React.PropTypes.any, // string or integer basically
+	// 	label: React.PropTypes.string,
+	// }
 
 	render () {
 		// These items don't get rendered directly.
